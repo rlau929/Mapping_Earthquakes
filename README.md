@@ -4,3 +4,14 @@ Please see "Earthquake_Challenge" folder for challenge material. The Earthquake_
 
 ## Challenge Analysis:
 In this Module, we are learning how to apply different overlays on a geographical map. The overlays can change different styles of the map such as light or dark. Then we can add different data such as earthquakes and tectonic plate, then toggle on/off to display either earthquakes and/or tectonic plates. The module is straight forward and I was able to apply previous skills and experience to help me with this challenge. I recommend adding weather data along with earthquake data to supplement information to the viewer.
+
+## Challenge PNG Images:
+
+Light (Displays Earthquake and Tectonic Plate)
+![Earthquake Analysis](png1.png)
+
+Streets
+![Earthquake Analysis](png2.png)
+
+Satellite
+![Earthquake Analysis](png3.png)
