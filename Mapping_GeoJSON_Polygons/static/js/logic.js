@@ -31,9 +31,6 @@
  // Pass our map layers into our layers control and add the layers control to the map.
  L.control.layers(baseMaps).addTo(map);
  
-// Accessing the Toronto airline routes GeoJSON URL.
-let torontoData = "https://raw.githubusercontent.com/rlau929/Mapping_Earthquakes/Mapping_GeoJSON_Linestrings/torontoRoutes.json";
-
 // Create a style for the lines.
 let myStyle = {
 	color: "#ffffa1",
@@ -41,10 +38,10 @@ let myStyle = {
 }
 
 // Accessing the Toronto neighborhoods GeoJSON URL.
-let torontoHoods = "https://raw.githubusercontent.com/rlau929/Mapping_Earthquakes/master/torontoNeighborhoods.json";
+let torontoHoods = "https://raw.githubusercontent.com/rlau929/Mapping_Earthquakes/Mapping_GeoJSON_Polygons/torontoNeighborhoods.json";
 
 // Grabbing our GeoJSON data.
-d3.json(torontoData).then(function(data) {
+d3.json(torontoHoods).then(function(data) {
 	console.log(data);
 	// Creating a GeoJSON layer with the retrieved data.
 	L.geoJson(data, {
