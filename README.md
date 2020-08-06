@@ -7,11 +7,11 @@ In this Module, we are learning how to apply different overlays on a geographica
 
 ## Challenge PNG Images:
 
-Light (Displays Earthquake and Tectonic Plate)
+Light (Displays Earthquake and Tectonic Plate):
 ![Earthquake Analysis](png1.png)
 
-Streets
-![Earthquake Analysis](png2.png)
-
-Satellite
+Streets:
 ![Earthquake Analysis](png3.png)
+
+Satellite:
+![Earthquake Analysis](png2.png)
